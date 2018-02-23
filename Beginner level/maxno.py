@@ -1,7 +1,7 @@
-a=[]
-n=10
-for i in range(0,n):
+list=[]
+number=10
+for i in range(0,number):
         b=int(input("enter elements:"))
-        a.append(b)
-a.sort()
-print("largest element",a[n-1])
+        list.append(b)
+list.sort()
+print("largest element",list[number-1])
