@@ -1,0 +1,10 @@
+string1=raw_input("")
+string2=raw_input("")
+length1=len(string1)
+length2=len(string2)
+if(length1==length2):
+    print(string1,string2)
+elif(length1>length2):
+    print(string1)
+else:
+    print(string2)
