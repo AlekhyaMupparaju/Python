@@ -1,3 +1,3 @@
 myString=raw_input("")
-s=myString.split(" ")
+s=myString.split(".")
 print(len(s))
